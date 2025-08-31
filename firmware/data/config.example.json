@@ -1,0 +1,49 @@
+{
+  "state": {
+    "brightness": 128,
+    "isPowerOn": true,
+    "lastSelectedCategory": "characters",
+    "categoryPlayback": true
+  },
+  "system": {
+    "debugMode": false,
+    "logLevel": "INFO",
+    "webServerPort": 80,
+    "otaEnabled": true
+  },
+  "network": {
+    "ssid": "YOUR_WIFI_SSID",
+    "password": "YOUR_WIFI_PASSWORD",
+    "hostname": "led-matrix",
+    "staticIp": true,
+    "localIp": "192.168.0.130",
+    "gateway": "192.168.0.1",
+    "subnet": "255.255.255.0",
+    "primaryDns": "8.8.8.8",
+    "secondaryDns": "8.8.4.4"
+  },
+  "pins": {
+    "display": {
+      "R1": 32,
+      "G1": 23,
+      "B1": 33,
+      "R2": 25,
+      "G2": 22,
+      "B2": 26,
+      "A": 27,
+      "B": 16,
+      "C": 14,
+      "D": 4,
+      "E": 21,
+      "CLK": 12,
+      "LAT": 15,
+      "OE": 13
+    },
+    "sd": {
+      "CS": 17,
+      "MOSI": 5,
+      "MISO": 19,
+      "SCK": 18
+    }
+  }
+}

@@ -1,3 +1,20 @@
+# Custom files
+**/.DS_STORE
+**/package-lock.json
+firmware/data/config.json
+firmware/data/state.json
+
+
+# Custom directories
+.pio/
+.roo/
+.vscode/
+**/__pycache__/
+**/gifs/
+**/dist/
+**/node_modules/
+**/test-results
+
 # Prerequisites
 *.d
 
@@ -53,3 +70,5 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+

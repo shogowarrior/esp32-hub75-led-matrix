@@ -1,0 +1,19 @@
+# Roo ignore files
+
+## Custom files
+
+**/.DS_STORE
+**/package-lock.json
+firmware/network.json
+firmware/data/state.json
+
+## Custom directories
+
+.pio/
+.roo/
+.vscode/
+**/__pycache__/
+**/gifs/
+**/dist/
+**/node_modules/
+**/test-results

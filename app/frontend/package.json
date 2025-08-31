@@ -1,0 +1,16 @@
+{
+  "name": "esp32-led-matrix-ui",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && esbuild frontend.tsx --bundle --outfile=./dist/frontend.js --format=esm --target=es2016 && cp index.html dist/ && cp frontend.css dist/ && echo 'CSS file copied to dist/'"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "esbuild": "^0.25.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
